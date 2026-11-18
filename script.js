@@ -308,7 +308,7 @@
   "use strict";
 
   // FIX 1: exact backend endpoint (the old value had a trailing space)
-  const API_URL = "http://127.0.0.1:8000/predict";
+  const API_URL = "https://mental-health-score-predictor-sbe0.onrender.com";
   const REQUEST_TIMEOUT_MS = 20000;
 
   const form = document.getElementById("predict-form");

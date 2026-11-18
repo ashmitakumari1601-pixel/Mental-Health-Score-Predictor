@@ -39,7 +39,7 @@ class PredictionResponse(BaseModel):
 
 @app.get('/')
 def greet():
-    return {'Welcome to Sheryians AI School Guys'}
+    return {'Welcome to Ashmita Mental Health Score Predictor API'}
 
 #6.77777 #data: StudentData means the incoming information must follow your Pydantic model.
 #response_model=PredictionResponse specifies the expected output format.
